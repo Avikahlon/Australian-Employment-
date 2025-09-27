@@ -1,0 +1,36 @@
+Given the case you provided, your **interactive data visualization system** can focus on the following features:
+
+### 1. **Time Series Analysis with Event Highlights**:
+   - **Unemployment Rate Over Time**: 
+     - Create a line graph or area chart that shows the unemployment rate over the 20-year period, with particular focus on Western Australia.
+     - Highlight major global events such as the **Global Financial Crisis (GFC)** and **COVID-19** pandemic with annotations, marking the periods where unemployment spiked.
+     - Include interactive tooltips that display unemployment rate, mining sector performance, and global event details when hovering over specific points in time.
+
+### 2. **Sector-based Analysis**:
+   - **Mining Sector vs. Other Sectors**:
+     - Incorporate a comparison of unemployment rates in the **mining sector** versus other sectors in Western Australia to show how global market fluctuations, such as drops in commodity prices, specifically impact unemployment.
+     - Allow users to toggle between sectors to view how the reliance on mining affects Western Australia’s unemployment rate compared to national trends.
+
+### 3. **Regional Heatmap or Map Visualization**:
+   - **Western Australia vs. Other States**:
+     - Develop an interactive heatmap or map showing how Western Australia’s unemployment rate compares to other states.
+     - Allow users to select specific states and see how their unemployment trends aligned or differed, especially during events like the GFC and COVID-19.
+     - Highlight Western Australia’s volatility due to the mining sector, providing additional layers of information regarding global market dependency.
+
+### 4. **Volatility and Sensitivity Analysis**:
+   - **Volatility Dashboard**:
+     - Use an interactive dashboard that measures and visually displays **volatility** in unemployment rates in response to global events.
+     - This can show how sensitive Western Australia’s unemployment is to changes in the global market, compared to other Australian states.
+     - Include features like slider bars for adjusting the timeframe to see volatility during specific periods (e.g., GFC, COVID-19).
+
+### 5. **Comparison Filters**:
+   - **Before and After Major Events**:
+     - Include filters that allow users to compare **before and after** periods of major events (like the GFC or COVID-19) for unemployment trends.
+     - Users can see how unemployment spiked during those events and how long it took for the recovery to happen.
+   
+### 6. **Narrative and Insight Sections**:
+   - **Contextual Information**:
+     - Alongside your visualizations, provide narrative sections where users can read the summary of global events and their impact on the mining sector and the overall unemployment rate.
+     - Show insights into why Western Australia is more volatile than other states, supported by data.
+
+This system would offer users a deep, interactive exploration of unemployment trends, emphasizing the impact of global economic events and the mining sector on Western Australia’s economy.
