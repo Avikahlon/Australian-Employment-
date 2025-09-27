@@ -1,0 +1,17 @@
+pycache/
+*.pyc
+*.pyd
+*.so
+
+.Python
+env/
+venv/
+/htmlcov/
+build/
+dist/
+*.egg-info
+.venv/
+
+.ipynb_checkpoints
+
+*.log

@@ -7,7 +7,7 @@ def show_intro():
     layout = [
         dashboard.Item("project_overview", x=0, y=0, w=6, h=2),
         dashboard.Item("technologies_used", x=6, y=0, w=6, h=2),
-        dashboard.Item("team_introduction", x=0, y=2, w=6, h=2),
+        dashboard.Item("introduction", x=0, y=2, w=6, h=2),
         dashboard.Item("datasets", x=6, y=2, w=6, h=2)
     ]
 
@@ -35,9 +35,9 @@ def show_intro():
                     - Pandas
                 """)
             
-            # Team Introduction Card
-            with mui.Paper(key="team_introduction", elevation=3, style={"padding": "20px"}):
-                mui.Typography("Team Introduction", variant="h5", className="draggable-handle")
+            #Introduction Card
+            with mui.Paper(key="introduction", elevation=3, style={"padding": "20px"}):
+                mui.Typography("Introduction", variant="h5", className="draggable-handle")
                 mui.Typography("""
                     This project was created by me as a Project during my studies at Murdoch University to understand
                     economic trends and their impact on society. just wanna secure a job after Grad : ( 
@@ -46,6 +46,6 @@ def show_intro():
             # Datasets Card
             with mui.Paper(key="datasets", elevation=3, style={"padding": "20px"}):
                 mui.Typography("Datasets", variant="h5", className="draggable-handle")
-                mui.Button("Download Unemployment Dataset - Industry Data", variant="contained", color="primary")
-                mui.Button("Download Unemployment Dataset - Labour Force", variant="contained", color="primary")
-                mui.Button("Download Unemployment Dataset - All States", variant="contained", color="primary")
+                mui.Button("Download Unemployment Datasets", variant="contained", color="primary",
+                href ='https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia/latest-release#data-downloads') 
+            

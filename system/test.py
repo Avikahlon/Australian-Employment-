@@ -31,7 +31,7 @@ from graph.covid import show_covid_section
 from graph.case import show_case_study
 
 # Streamlit app layout
-st.title("Unemployment Analysis in Australia (1978 - 2024)")
+st.title("Unemployment Analysis in Australia (1978 - 2025)")
 
 # Sidebar for navigation
 st.sidebar.title("Navigation")
