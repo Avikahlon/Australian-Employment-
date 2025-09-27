@@ -19,7 +19,7 @@ def load_employment_data():
         wa_data = wa_data.rename(columns={"Unnamed: 0": "Date"})
     
     return au_data, wa_data
-
+#TODO: Add employement to population graph
 def plot_stacked_bar_chart(title, au_data, wa_data):
     au_data = au_data.iloc[10:]
     wa_data = wa_data.iloc[10:]

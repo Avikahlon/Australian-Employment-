@@ -10,7 +10,7 @@ def show_case_study():
     # Plot stacked bar chart for GFC period
     plot_stacked_bar_chart("Industry Sector Employment Rate During GFC (2010)", au_data, wa_data)
 
-    with st.expander("Industry Sector Employment Rate During GFC (20010)", expanded=True):
+    with st.expander("Industry Sector Employment Rate During GFC (2010)", expanded=True):
         st.subheader("Key Insights")
         st.write("- During the GFC (2008), Western Australia's employment rate was relatively more volatile compared to the national average due to its reliance on the mining sector.")
 

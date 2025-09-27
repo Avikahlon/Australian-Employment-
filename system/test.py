@@ -37,8 +37,8 @@ st.title("Unemployment Analysis in Australia (1978 - 2024)")
 st.sidebar.title("Navigation")
 options = st.sidebar.radio("Select Section:", [
     "Introduction",
-    "1978 - 2024 Total Number of Unemployed People in All States of Australia",
-    "1978 - 2024 Unemployment Rate of All States in Australia",
+    "1978 - 2025 Total Number of Unemployed People in All States of Australia",
+    "1978 - 2025 Unemployment Rate of All States in Australia",
     "2008 - 2012 Global Financial Crisis",
     "2020 - 2024 Covid-19 Recession",
     "Case Study"
@@ -51,9 +51,9 @@ with st.container():
     # Display content based on the selected section
     if options == "Introduction":
         show_intro()
-    elif options == "1978 - 2024 Total Number of Unemployed People in All States of Australia":
+    elif options == "1978 - 2025 Total Number of Unemployed People in All States of Australia":
         show_unemployment_numbers()
-    elif options == "1978 - 2024 Unemployment Rate of All States in Australia":
+    elif options == "1978 - 2025 Unemployment Rate of All States in Australia":
         show_unemployment_rate()
     elif options == "2008 - 2012 Global Financial Crisis":
         show_gfc_section()

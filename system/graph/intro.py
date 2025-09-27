@@ -20,7 +20,7 @@ def show_intro():
             with mui.Paper(key="project_overview", elevation=3, style={"padding": "20px"}):
                 mui.Typography("Project Overview", variant="h5", className="draggable-handle")
                 mui.Typography("""
-                    This project provides an analysis of unemployment in Australia from 1978 to 2024.
+                    This project provides an analysis of unemployment in Australia from 1978 to 2025.
                     It includes interactive visualisations of unemployment data across different states,
                     using line graphs, bar graphs, and choropleth maps.
                 """)
@@ -39,8 +39,8 @@ def show_intro():
             with mui.Paper(key="team_introduction", elevation=3, style={"padding": "20px"}):
                 mui.Typography("Team Introduction", variant="h5", className="draggable-handle")
                 mui.Typography("""
-                    This project was created by a dedicated team of data enthusiasts who study at Murdoch University with a passion for
-                    understanding economic trends and their impact on society. (just wanna secure a job after Grad : ( 
+                    This project was created by me as a Project during my studies at Murdoch University to understand
+                    economic trends and their impact on society. just wanna secure a job after Grad : ( 
                 """)
             
             # Datasets Card

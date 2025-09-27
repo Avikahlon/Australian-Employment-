@@ -37,6 +37,7 @@ def load_data():
 
     return df_person, df_rate
 
+#TODO: Add unemployement to population graph
 def plot_unemployment_graph(df, title, yaxis_title, key):
     """Function to create and display unemployment graphs with smoothing options."""
     with st.expander(f"View {title}", expanded=True):

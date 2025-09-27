@@ -49,17 +49,17 @@ def plot_choropleth_map(df, geojson_path, graph_type):
         with open(geojson_path) as f:
             aus_geojson = json.load(f)
 
-        if graph_type == "Total Number of Unemployed People (1978-2024)":
+        if graph_type == "Total Number of Unemployed People (1978-2025)":
             df_data = df
             zmax_value = 320
-            title_text = "Interactive Choropleth Map of Total Number of Unemployed People (1978-2024)"
-            date_range = pd.date_range(start='1978-01-01', end='2024-8-31', freq='Y')
+            title_text = "Interactive Choropleth Map of Total Number of Unemployed People (1978-2025)"
+            date_range = pd.date_range(start='1978-01-01', end='2025-08-01', freq='Y')
 
-        elif graph_type == "Unemployment Rate (1978-2024)":
+        elif graph_type == "Unemployment Rate (1978-2025)":
             df_data = df
             zmax_value = 14
-            title_text = "Interactive Choropleth Map of Unemployment Rate (1978-2024)"
-            date_range = pd.date_range(start='1978-01-01', end='2024-8-31', freq='Y')
+            title_text = "Interactive Choropleth Map of Unemployment Rate (1978-2025)"
+            date_range = pd.date_range(start='1978-01-01', end='2025-08-01', freq='Y')
 
         elif graph_type == "Total Number of Unemployed People during GFC (2008-2012)":
             df_data = df
@@ -82,8 +82,8 @@ def plot_choropleth_map(df, geojson_path, graph_type):
         elif graph_type ==  "Unemployment Rate during COVID-19 (2020-2024)":
             df_data = df
             zmax_value = 8
-            title_text = "Interactive Choropleth Map of Unemployment rate during Global Financial Crisis (2008-2012)"
-            date_range = pd.date_range(start='2008-01-01', end='2012-12-31', freq='M')
+            title_text = "Interactive Choropleth Map of Unemployment rate during COVID-19 (2020-2024)"
+            date_range = pd.date_range(start='2020-01-01', end='2024-12-31', freq='M')
 
         # Create frames for each date in the specified date range
         frames = []
