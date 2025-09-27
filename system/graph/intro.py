@@ -46,6 +46,11 @@ def show_intro():
             # Datasets Card
             with mui.Paper(key="datasets", elevation=3, style={"padding": "20px"}):
                 mui.Typography("Datasets", variant="h5", className="draggable-handle")
-                mui.Button("Download Unemployment Datasets", variant="contained", color="primary",
-                href ='https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia/latest-release#data-downloads') 
+                mui.Button("Download Unemployment Datasets", target="_blank", 
+                            size="medium", 
+                            variant="contained", 
+                            start_icon=mt.icons.arrow_downward, 
+                            onclick=mt.rerun, 
+                            style={"color":"#FFFFFF", "background":"#FF4B4B"}, 
+                            href="https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia/latest-release#data-downloads")
             
