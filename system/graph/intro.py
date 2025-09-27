@@ -39,7 +39,7 @@ def show_intro():
             with mui.Paper(key="introduction", elevation=3, style={"padding": "20px"}):
                 mui.Typography("Introduction", variant="h5", className="draggable-handle")
                 mui.Typography("""
-                    This project was created by me as a Project during my studies at Murdoch University to understand
+                    This project was created by me during my studies at Murdoch University to understand
                     economic trends and their impact on society. just wanna secure a job after Grad : ( 
                 """)
             
